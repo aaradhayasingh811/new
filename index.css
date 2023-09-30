@@ -1,0 +1,28 @@
+
+#show_btn{
+    display: none;
+    background-color: transparent;
+}
+#show_btn:hover{
+    border: 1px solid lightgray;
+}
+.mmmut-official{
+    border: none;
+    /* background-color: rgb(128, 128, 128); */
+    color:rgb(50, 50, 50);
+}
+.mmmut-official:hover{
+    background-color: rgb(102, 102, 102);
+    color: white;
+}
+.main-div{
+  margin-top:15vh;
+}
+.site-map .nav-link:hover{
+    color: yellow;
+}
+@media (max-width:991px){
+    #show_btn{
+        display: block;
+    }
+}
